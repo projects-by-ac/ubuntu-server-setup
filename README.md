@@ -4,7 +4,7 @@ This Script is designed to run **after installing Ubuntu-Server 22.04/24.04**
 
 **install guide:**
   - run script as root/sudo
-  - input username as $1 parameter
+  - input current/new username as $1 parameter
     
 ***example:***  *sudo ./ubuntu-server.sh test1*
                     
