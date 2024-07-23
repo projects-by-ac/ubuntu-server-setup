@@ -147,9 +147,10 @@ done
 printf "\nDone!\n"
 echo ""
 
-echo -e "${BYELLOW}***REMOVING LEFTOVER PACKAGES***${ENDCOLOR}"
+#INSTALL CLI-TOOLS
+echo -e "${BYELLOW}***INSTALLING CLI-TOOLS***${ENDCOLOR}"
 echo ""
-apt autoremove -q -y & pid=$!
+apt install curl wget apt-transport-https htop duf fzf nnn -q -y  & pid=$!
 i=1
 sp="\|/-"
 while ps -p $pid > /dev/null
@@ -160,10 +161,9 @@ done
 printf "\nDone!\n"
 echo ""
 
-#INSTALL CLI-TOOLS
-echo -e "${BYELLOW}***INSTALLING CLI-TOOLS***${ENDCOLOR}"
+echo -e "${BYELLOW}***REMOVING LEFTOVER PACKAGES***${ENDCOLOR}"
 echo ""
-apt install curl wget apt-transport-https htop duf fzf nnn -q -y  & pid=$!
+apt autoremove -q -y & pid=$!
 i=1
 sp="\|/-"
 while ps -p $pid > /dev/null
