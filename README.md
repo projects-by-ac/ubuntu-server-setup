@@ -13,7 +13,7 @@ This Script is designed to run **after installing Ubuntu-Server 22.04/24.04**
 - give user root privileges
 - set date/time (timezone) to NL (netherlands)
 - update/upgrade packages
-- autoremove leftover packages
 - install cli-tools:
   - *curl / wget / apt-transport-https / htop / duf / fzf / nnn*
+- autoremove leftover packages
 - setup & activate ufw firewall with ssh-access
