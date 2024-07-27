@@ -120,7 +120,7 @@ echo "Europe/Amsterdam"
 date
 echo ""
 
-#UPDATE-UPGRADE-AUTOREMOVE
+#UPDATE-UPGRADE
 echo -e "${BYELLOW}***UPDATING PACKAGES***${ENDCOLOR}"
 echo ""
 apt update -qq -y & pid=$!
@@ -161,6 +161,7 @@ done
 printf "\nDone!\n"
 echo ""
 
+#AUTOREMOVE
 echo -e "${BYELLOW}***REMOVING LEFTOVER PACKAGES***${ENDCOLOR}"
 echo ""
 apt autoremove -q -y & pid=$!
