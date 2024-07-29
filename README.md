@@ -6,8 +6,9 @@ This bash script is designed to run **after installing Ubuntu-Server 22.04/24.04
   - run script as root
   - input username as $1 parameter
     
-**Example:**  
-> *sudo ./ubuntu-server.sh test1*
+**Example:**
+
+- `sudo ./ubuntu-server.sh test1`
                     
 ![ubuntu-server](https://github.com/user-attachments/assets/f951dfc8-bebf-4102-9637-106fe8eb1fe2)
 
