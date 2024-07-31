@@ -2,6 +2,10 @@
 
 This bash script is designed to run **after installing Ubuntu-Server 22.04/24.04**
 
+It automates the installation, configuration, and setup of specific packages, 
+making it easier for system administrators to get their servers up and running quickly. 
+By running this script, users can avoid manual steps and ensure consistent server configurations.
+
 **Install guide:**
   - run script as root
   - input username as $1 parameter
