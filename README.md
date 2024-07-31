@@ -6,8 +6,6 @@ It automates the installation, configuration, and setup of specific packages,
 making it easier for system administrators to get their servers up and running quickly. 
 By running this script, users can avoid manual steps and ensure consistent server configurations.
 
-Feel free to customize the script further based on your specific requirements and package choices!
-
 **Install guide:**
   - run script as root
   - input username as $1 parameter
@@ -26,3 +24,5 @@ Feel free to customize the script further based on your specific requirements an
   - *curl / wget / apt-transport-https / htop / duf / fzf / nnn*
 - autoremove leftover packages
 - setup & activate ufw firewall with ssh-access
+
+Feel free to customize the script further based on your specific requirements and package choices!
