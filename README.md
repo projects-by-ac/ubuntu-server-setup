@@ -41,7 +41,7 @@ Make the script executable:
 
 Run the script with username as $1 parameter:  
 
-*(example running script with 'test1' as username)*  
+*(example: running script with 'test1' as username)*  
 
    ```bash
    sudo ./ubuntu-server.sh test1
